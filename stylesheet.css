@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:					0;
+	background-color:		#019966;
+	background-image:		url(images/body-bg.jpg);
+	background-repeat:		repeat-x;
+	}
+
+a {
+	color: #ffcc99;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #e8e6d8;
+	text-decoration: underline;
+}
+
+#main {
+	min-height:				865px;
+	width:					975px;
+	padding-top:			10px;
+	background-image:		url(images/main-bg.jpg);
+	background-repeat:		no-repeat;
+	background-position:	0px 0px;
+	}
+
+#header {
+	margin-top:				0px;
+	margin-bottom:			10px;
+	text-align:				center;
+	}
+
+h1 {
+	margin-top:				0;
+	margin-bottom:			10px;
+	font-size:				30px;
+	text-align:				center;
+	font-weight:			normal;
+	color:					#FFFFFF;
+	}
+
+#content {
+	width:					680px;
+	margin-left:			270px;
+	}
+
+#content p {
+	margin-top:				0;
+	margin-bottom:			8px;
+	font-family:			Arial, Helvetica, sans-serif;
+	font-size:				16px;
+	color:					#FFFFFF;
+	}
+
+.div-left {
+	width:					200px;
+	float:					left;
+	font-weight:			bold;
+	}
+
+.div-right {
+	width:					480px;
+	float:					right;
+	}
+
+.div-right p {
+	margin-bottom:			1px;
+	font-size:				14px;
+	}
+
+.clear-div {
+	clear:					both;
+	height:					10px;
+	}
+
+#footer {
+	margin-bottom:			10px;
+	}
+
+#footer p {
+	text-align:				center;
+	font-size:				12px;
+	margin-top:				0;
+	margin-bottom:			2px;
+	}
