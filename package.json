@@ -1,0 +1,23 @@
+{
+  "name": "smkolb",
+  "version": "1.0.0",
+  "description": "Website for Susan M. Kolb, M.A - Limited Licensed Psychologist",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-dev": "node-sass --watch src/sass/styles.scss assets/css/styles.min.css",
+    "build-prod": "node-sass src/sass/styles.scss assets/css/styles.min.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crandelldesign/smkolb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crandelldesign/smkolb/issues"
+  },
+  "homepage": "https://www.smkolb.com/"
+}
